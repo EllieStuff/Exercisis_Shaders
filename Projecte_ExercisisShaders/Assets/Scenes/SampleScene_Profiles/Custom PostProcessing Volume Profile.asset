@@ -13,7 +13,27 @@ MonoBehaviour:
   m_Name: Custom PostProcessing Volume Profile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 3663783656923598341}
+  - {fileID: 3205001357717267648}
+  - {fileID: 9044506690923176856}
+--- !u!114 &3205001357717267648
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: InvertColorsSettings
+  m_EditorClassIdentifier: Assembly-CSharp::InvertColorsSettings
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  blend:
+    overrideState: 1
+    value: 1
 --- !u!114 &3663783656923598341
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -31,5 +51,46 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   blend:
+    overrideState: 1
+    value: 1
+--- !u!114 &8665651134514120533
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomPostproPixelateSettings
+  m_EditorClassIdentifier: Assembly-CSharp::CustomPostproPixelateSettings
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  blend:
+    overrideState: 1
+    value: 0
+--- !u!114 &9044506690923176856
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: PixelateSettings
+  m_EditorClassIdentifier: Assembly-CSharp::PixelateSettings
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  resolution:
+    overrideState: 1
+    value: 210
+  pixelSize:
     overrideState: 1
     value: 1
